@@ -46,6 +46,9 @@
 .inLeft p{
     color: rgb(194, 194, 194);
 }
+.inRight p {
+    color: rgb(194, 194, 194);
+}
 .status{
     font-size: 10px;
     margin-top: 6px;
@@ -65,4 +68,23 @@
     font-size: 13px;
     margin-bottom: -0px;
    /* vertical-align: text-bottom; */
+}
+/* .inRight .names p{
+margin-bottom: 110px !important;
+} */
+ .inRight{
+    display: flex;
+    flex-direction: column;
+    /* gap: 14px; */
+    justify-content: space-evenly;
+ }
+.rightP {
+    font-size: 13px;
+    color: rgb(194, 194, 194);
+    /* margin-top: 20px !important; */
+
+}
+.inRight p:nth-child(2) {
+    font-weight: bold;
+    margin-top: 10px;
 }
