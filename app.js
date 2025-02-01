@@ -16,10 +16,11 @@ var matches = {
         team2 : {
             name : "Sri Lanka",
             SriLanka : "165 & 247 (f/o)"
-        }
+        },
+        season : "Test 1 of 2 (AUS leads 1-0) - Day 4- Season 2",
+        date : "Jan 29-Feb-1",
+        status : "AUS won by an innings and 242 runs"
     },
-    season : "Test 1 of 2 (AUS leads 1-0) - Day 4- Season 2",
-    date : "Jan 29-Feb-1",
-    status : "AUS won by an innings and 242 runs"
+   
 
 }
