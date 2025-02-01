@@ -27,6 +27,7 @@
 .matches_news{
     background-color: #0E819A;
     height: 60px;
+    
 
 }
 .matches_news P {
@@ -87,4 +88,9 @@ margin-bottom: 110px !important;
 .inRight p:nth-child(2) {
     font-weight: bold;
     margin-top: 10px;
+}
+.cards {
+    /* display: flex; */
+    flex-wrap: wrap !important;
+
 }
