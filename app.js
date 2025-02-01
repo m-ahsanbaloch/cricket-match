@@ -154,3 +154,25 @@ inRight[3].innerHTML = `<p class="status">${matches.match4.date}</p>
 <p class="rightP">${matches.match4.team2.sriLanka} </p>
 <img src="${matches.match4.play}">`
 // ======MAtch 2============
+// ======MAtch 2============
+inLeft[4].innerHTML = `<p class="status">${matches.match5.season}</p>
+<div class="names"><img class="countryImg" src="${matches.match5.team1.image}"><p>${matches.match5.team1.name} </p> </div>
+<div class="names"><img class="countryImg" src="${matches.match5.team2.image}"><p>${matches.match5.team2.name} </p> </div>
+<div class="status"><p>${matches.match5.status}</p></div>`;
+console.log(inRight[4])
+inRight[4].innerHTML = `<p class="status">${matches.match5.date}</p>
+<p class="rightP">${matches.match5.team1.australia} </p>
+<p class="rightP">${matches.match5.team2.sriLanka} </p>
+<img src="${matches.match5.play}">`
+// ======MAtch 2============
+// ======MAtch 2============
+inLeft[5].innerHTML = `<p class="status">${matches.match6.season}</p>
+<div class="names"><img class="countryImg" src="${matches.match6.team1.image}"><p>${matches.match6.team1.name} </p> </div>
+<div class="names"><img class="countryImg" src="${matches.match6.team2.image}"><p>${matches.match6.team2.name} </p> </div>
+<div class="status"><p>${matches.match6.status}</p></div>`;
+console.log(inRight[5])
+inRight[5].innerHTML = `<p class="status">${matches.match6.date}</p>
+<p class="rightP">${matches.match6.team1.australia} </p>
+<p class="rightP">${matches.match6.team2.sriLanka} </p>
+<img src="${matches.match6.play}">`
+// ======MAtch 2============
