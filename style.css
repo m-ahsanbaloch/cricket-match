@@ -34,3 +34,8 @@
 .para:hover{
     background-color: rgba(255, 255, 255, 0.184);
 }
+.seet {
+    height: 250px;
+    background-color: black;
+    border: 0.1px solid rgba(255, 255, 255, 0.212);
+}
