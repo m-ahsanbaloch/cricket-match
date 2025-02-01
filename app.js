@@ -1,5 +1,6 @@
 
 var heading = document.getElementById('heading')
+var inLeft = document.getElementsByClassName("inLeft")
 var title = {
     text: "ICC",
     image : "assets/images/icc_logo.png"
@@ -8,7 +9,7 @@ var title = {
 console.log(title.image)
 heading.innerHTML = `<img class="logo" src="${title.image}"> <p>${title.text}</p>`
 var matches = {
-    math1 : {
+    match1 : {
         team1 : {
             name : "Australia",
             australia : "654/6d"
@@ -24,3 +25,8 @@ var matches = {
    
 
 }
+
+console.log(inLeft[0])
+console.log(matches.match1.status)
+inLeft[0].innerHTML = `<p class="status">${matches.match1.season}</p>
+<div class="names"><imd src="${}"</div>`
