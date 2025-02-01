@@ -39,7 +39,7 @@
     background-color: rgba(255, 255, 255, 0.184);
 }
 .seet {
-    height: 250px;
+    /* height: 250px; */
     background-color: #101218;
     border: 0.1px solid rgba(255, 255, 255, 0.112);
 }
@@ -49,4 +49,20 @@
 .status{
     font-size: 10px;
     margin-top: 6px;
+}
+.countryImg{
+    width: 30px;
+    object-fit: contain;
+}
+.names{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.names p {
+    margin-left: 10px;
+    font-size: 13px;
+    margin-bottom: -0px;
+   /* vertical-align: text-bottom; */
 }
