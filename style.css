@@ -5,7 +5,7 @@
 }
 .heading{
     padding-bottom: 1px ;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.28);
     background-color: #0E819A;
     color: white;
     display: flex;
@@ -19,4 +19,18 @@
 .logo{
     width: 50px;
     object-fit: contain;
+}
+.matches_news{
+    background-color: #0E819A;
+    height: 40px;
+
+}
+.matches_news P {
+    padding-top:9px ;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.para:hover{
+    background-color: rgba(255, 255, 255, 0.184);
 }
