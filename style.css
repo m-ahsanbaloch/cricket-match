@@ -3,3 +3,11 @@
     height: 100vh;
     width: 50%;
 }
+.heading{
+    padding-bottom: 1px ;
+    border-bottom: 1px solid gray;
+    background-color: #0E819A;
+}
+.logo{
+    width: 50px;
+}
