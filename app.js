@@ -6,4 +6,4 @@ var title = {
 }
 // heading.innerHTML = title[image]
 console.log(title.image)
-heading.innerHTML = `<img class="logo" src="${title.image}"> ${title.text}`
+heading.innerHTML = `<img class="logo" src="${title.image}"> <p>${title.text}</p>`

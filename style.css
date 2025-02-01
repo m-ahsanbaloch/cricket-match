@@ -7,7 +7,16 @@
     padding-bottom: 1px ;
     border-bottom: 1px solid gray;
     background-color: #0E819A;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 70px;
+    align-items: center;
+}
+.heading p {
+    margin-top: 13px;
 }
 .logo{
     width: 50px;
+    object-fit: contain;
 }
