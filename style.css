@@ -1,5 +1,6 @@
 *{
     font-family: 'Rubik', sans-serif;
+    color: gray !important;
     font-weight: 400; /* Adjust weight as needed */
 }
 .main{
@@ -19,6 +20,7 @@
 }
 .heading p {
     margin-top: 13px;
+    color: white !important;
 }
 .logo{
     width: 50px;
@@ -33,7 +35,7 @@
 .matches_news P {
     padding-top:15px ;
     text-align: center;
-    color: white;
+    color: white !important ;
     font-size: 14px;
 }
 .para:hover{
@@ -41,8 +43,8 @@
 }
 .seet {
     /* height: 250px; */
-    background-color: #101218;
-    border: 0.1px solid rgba(255, 255, 255, 0.112);
+    /* background-color: #101218; */
+    border: 0.1px solid rgba(0, 0, 0, 0.106);
 }
 .inLeft p{
     color: rgb(194, 194, 194);
